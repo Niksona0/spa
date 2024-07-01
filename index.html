@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SPA Center </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Spa" name="keywords">
+    <meta content="Spa Website" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Link Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0" id="root" id="navbar">
+        <nav class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5">
+            <a href="index.html" class="navbar-brand ml-lg-3">
+                <img src="img/logo.png" class="logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
+                <div class="navbar-nav m-auto py-0">
+                    <a href="#navbar" data-translate="hometext" class="nav-item nav-link active text-white">Home</a>
+                    <a href="#about" data-translate="about" class="nav-item nav-link text-white">About</a>
+                    <a href="#service" data-translate="service" class="nav-item nav-link text-white">Services</a>
+                    <a href="#pricing" data-translate="masseuse" class="nav-item nav-link text-white">masseuse</a>
+                    <a href="#contact" data-translate="contact" class="nav-item nav-link text-white">Contact</a>
+                    <div class="flags">
+                        <img class="flag usa" src="img/ffa.png" alt="English" data-lang="en">
+                        <img class="flag grecee" src="img/flag-greece.png" alt="el" data-lang="el">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5" id="carousel">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#header-carousel" data-slide-to="1"></li>
+                <li data-target="#header-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="min-height: 100vh;">
+                    <video class="position-absolute w-100 h-100 hero-img" src="media/home-intro.mp4" autoplay muted loop></video>
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
+                                style="letter-spacing: 3px;">Spa & Beauty Center</h6>
+                            <h3 class="display-3 text-capitalize text-primary mb-3">Massage Treatment</h3>
+                            <p class="mx-md-5 px-5">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet.
+                                Sadips duo stet amet amet ndiam elitr ipsum labore diam</p>
+                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp text-bold"
+                                href="#contact">Make Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="min-height: 100vh;">
+                    <video class="position-absolute w-100 h-100 hero-img" src="media/home-intro-2.mp4" autoplay muted loop></video>
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
+                                style="letter-spacing: 3px;">Spa & Beauty Center</h6>
+                            <h3 class="display-3 text-capitalize text-primary mb-3">Facial Treatment</h3>
+                            <p class="mx-md-5 px-5">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet.
+                                Sadips duo stet amet amet ndiam elitr ipsum labore diam</p>
+                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp text-bold"
+                                href="#contact">Make Appointment</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="min-height: 100vh;">
+                    <video class="position-absolute w-100 h-100 hero-img" src="media/home-intro-3.mp4" autoplay muted loop></video>
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown"
+                                style="letter-spacing: 3px;">Spa & Beauty Center</h6>
+                            <h3 class="display-3 text-capitalize text-primary mb-3">Cellulite Treatment</h3>
+                            <p class="mx-md-5 px-5">Lorem rebum magna dolore amet lorem eirmod magna erat diam stet.
+                                Sadips duo stet amet amet ndiam elitr ipsum labore diam</p>
+                            <a class="btn btn-outline-light py-3 px-4 mt-3 animate__animated animate__fadeInUp text-bold"
+                                href="#contact">Make Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2" style="font-weight: 900 !important;">About Us</h6>
+                    <h1 class="mb-4 text-primary">Best Masseuse</h1>
+                    <p class="pl-4 border-left border-primary">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet
+                        diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed
+                        ipsum et kasd erat duo eos et erat</p>
+                    <div class="row pt-3">
+                        <div class="col-6">
+                            <div class="bg-light text-center p-4">
+                                <h3 class="display-4 text-primary" data-toggle="counter-up">14</h3>
+                                <h6 class="text-uppercase text-bold">Hotels Served</h6>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="bg-light text-center p-4">
+                                <h3 class="display-4 text-primary" data-toggle="counter-up">+200</h3>
+                                <h6 class="text-uppercase text-bold">Happy Clients</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Service Start -->
+    <div class="container-fluid px-0 py-5 my-5" id="service">
+        <div class="row mx-0 justify-content-center text-center">
+            <div class="col-lg-6">
+                <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2 text-bold">Our Service</h6>
+                <h1 class="text-primary">Spa & Beauty Services</h1>
+            </div>
+        </div>
+        <div class="owl-carousel service-carousel">
+            <div class="service-item position-relative" data-name="p-1">
+                <img class="img-fluid" src="img/service-5.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class= "text-white font-weight-medium px-3">Back and Shoulder Massage</h4>
+                    <p class="text-white px-3 mb-3">Make your body’s vitality a priority and allow 
+                        SPA Center to take care of you!</p>
+                    <div class="conteiner w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-1')">info</button>             
+                    </div>
+                </div>
+            </div>  
+            <div class="service-item position-relative" data-name="p-2">
+                <img class="img-fluid" src="img/service-6.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Head and Back Massage</h4>
+                    <p class="text-white px-3 mb-3">Prioritize your vitality and experience a
+                         rejuvenating head and back massage today!</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-2')">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-3">
+                <img class="img-fluid" src="img/service-1.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Face Lifting</h4>
+                    <p class="text-white px-3 mb-3">Refresh and rejuvenate with a head and back massage
+                         and a face lifting treatment today!</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-3')">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative">
+                <img class="img-fluid" src="img/service-2.jpg" alt="" data-name="p-4">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Lympahatic Dranage Massage</h4>
+                    <p class="text-white px-3 mb-3">Experience rejuvenation with a head and back massage, face
+                         lifting treatment, and lymphatic drainage massage!</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-4')">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-5">
+                <img class="img-fluid" src="img/service-3.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Deep tissue</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo
+                        sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-5')">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-6">
+                <img class="img-fluid" src="img/service-4.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Medical treatments</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo
+                        sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-6')">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-7">
+                <img class="img-fluid" src="img/service-2.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Japanese massage</h4>
+                    <p class="text-white px-3 mb-3">In the Japanese language, shiatsu means "finger pressure".</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-7')">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-8">
+                <img class="img-fluid" src="img/service-1.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Swedish massge</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo
+                        sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-8')">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-9">
+                <img class="img-fluid" src="img/service-1.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Hot stone massge</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo
+                        sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-9')">info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-item position-relative" data-name="p-10">
+                <img class="img-fluid" src="img/service-1.jpg" alt="">
+                <div class="service-text text-center">
+                    <h4 class="text-white font-weight-medium px-3">Thai massge</h4>
+                    <p class="text-white px-3 mb-3">Elitr labore sit dolor erat est lorem diam sea ipsum diam dolor duo
+                        sit ipsum</p>
+                    <div class="w-100 bg-white text-center p-4">
+                        <button onclick="openModal('modal-10')">info</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Service End -->
+
+        <!-- Popup Modal -->
+        <div id="modal-1" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-5.jpg" alt="">
+                    <h1>Back and Shoulder Massage</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-2" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-6.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-3" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-1.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-4" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-3.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-5" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-2.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-6" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-6.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-7" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/testimonial.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-8" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-4.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-9" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-3.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-10" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body">
+                    <img class="img-fluid" src="img/service-1.jpg" alt="">
+                    <h1>qafoooq imena daifixe</h1>
+                    <p style=>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta quod, adipisci omnis in amet esse voluptatem illo consequuntur vitae quibusdam veniam numquam voluptas dolor non accusamus? Adipisci autem a exercitationem!</p>
+                    <button onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <!-- Open Hours Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-6" style="min-height: 500px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100" src="img/khatia.jpg" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-5 pb-lg-5">
+                        <div class="hours-text bg-light p-4 p-lg-5 my-lg-5">
+                            <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Masseuse
+                            </h6>
+                            <h1 class="mb-4 text-primary">Khatia Bakuradze</h1>
+                            <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum
+                                labore
+                                sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo
+                                eos et
+                                erat sed diam duo</p>
+                            <h2 class="text-white" style="letter-spacing: 3px;">Qualifications</h2>
+                            <ul class="list-inline">
+                                <li class="h6 py-1 text-white"><i class="far fa-circle mr-3 text-primary"></i>X Chamption</li>
+                                <li class="h6 py-1 text-white"><i class="far fa-circle mr-3 text-primary"></i>Past Experience</li>
+                                <li class="h6 py-1 text-white"><i class="far fa-circle mr-3 text-primary"></i>Certified</li>
+                            </ul>
+                            <a href="#contact" class="btn btn-primary mt-2">Contact Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Open Hours End -->
+
+
+        <!-- Pricing Start -->
+        <div class="container-fluid bg-pricing" id="pricing">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5" style="min-height: 500px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute w-100 h-100" src="img/pricing.jpg" style="object-fit: cover;">
+                        </div>
+                    </div>
+                    <div class="col-lg-7 pt-5 pb-lg-5">
+                        <div class="pricing-text bg-light p-4 p-lg-5 my-lg-5">
+                            <div class="owl-carousel pricing-carousel">
+                                <div class="bg-white">
+                                    <div
+                                        class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
+                                        <h1 class="display-4 mb-0">
+                                            Make a Gift
+                                        </h1>
+                                    </div>
+                                    <div class="p-4 text-dark text-bold">
+                                        <p><i class="fa fa-check text-success mr-2"></i>Easy gift-giving with beautifully packaged options.</p>
+                                        <p><i class="fa fa-check text-success mr-2"></i>Treat your loved ones to relaxation.</p>
+                                        <p><i class="fa fa-check text-success mr-2"></i>Tailored options for every preference.</p>
+                                        <p><i class="fa fa-check text-success mr-2"></i>Suitable for birthdays, anniversaries, holidays.</p>
+
+                                        <a href="#contact" class="btn btn-primary my-2">Order Now</a>
+                                    </div>
+                                </div>
+                                <div class="bg-white">
+                                    <div
+                                        class="d-flex align-items-center justify-content-between border-bottom border-primary p-4">
+                                        <h1 class="display-4 mb-0">
+                                            Bachelorette
+                                        </h1>
+                                    </div>
+                                    <div class="p-4 text-dark text-bold">
+                                        <p><i class="fa fa-check text-success mr-2"></i>Ideal for bonding and relaxation.</p>
+                                        <p><i class="fa fa-check text-success mr-2"></i>Treat the bride-to-be to luxury.</p>
+                                        <p><i class="fa fa-check text-success mr-2"></i>Pre-wedding skincare for the entire party.</p>
+                                        <p><i class="fa fa-check text-success mr-2"></i> Get ready for the big day in style.</p>
+
+                                        <a href="#contact" class="btn btn-primary my-2">Order Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing End -->
+
+
+        <!-- Team Start -->
+        <div class="container-fluid py-5">
+            <div class="container pt-5">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6">
+                        <h6 class="d-inline-block bg-light text-primary text-uppercase py-1 px-2">Spa Specialist</h6>
+                        <h1 class="mb-5 text-primary">Her Achievements</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team position-relative overflow-hidden mb-5">
+                            <img class="img-fluid" src="img/ach-2.jpg" alt="">
+                            <div class="position-relative text-center">
+                                <div class="team-text bg-primary text-white">
+                                    <h5 class="text-white text-uppercase">Champion</h5>
+                                    <p class="m-0">X Year - Certified 1st Place</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team position-relative overflow-hidden mb-5">
+                            <img class="img-fluid" src="img/ach-2.jpg" alt="">
+                            <div class="position-relative text-center">
+                                <div class="team-text bg-primary text-white">
+                                    <h5 class="text-white text-uppercase">Champion</h5>
+                                    <p class="m-0">X Year - Certified 1st Place</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team position-relative overflow-hidden mb-5">
+                            <img class="img-fluid" src="img/ach-3.jpg" alt="">
+                            <div class="position-relative text-center">
+                                <div class="team-text bg-primary text-white">
+                                    <h5 class="text-white text-uppercase">Champion</h5>
+                                    <p class="m-0">X Year - Certified 1st Place</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="team position-relative overflow-hidden mb-5">
+                            <img class="img-fluid" src="img/ach-4.jpg" alt="">
+                            <div class="position-relative text-center">
+                                <div class="team-text bg-primary text-white">
+                                    <h5 class="text-white text-uppercase">Champion</h5>
+                                    <p class="m-0">X Year - Certified 1st Place</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 pb-5 pb-lg-0">
+                        <img class="img-fluid w-100" src="img/hotel-1.jpg" alt="Hotel Photo">
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2 text-bold">Testimonial</h6>
+                        <h1 class="mb-4 text-primary">Hotels Served</h1>
+                        <div class="owl-carousel testimonial-carousel">
+                            <div class="position-relative">
+                                <i class="fa fa-3x fa-quote-right text-primary position-absolute"
+                                    style="top: -6px; right: 0;"></i>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid rounded-circle" src="img/hotel-1.jpg"
+                                        style="width: 60px; height: 60px;" alt="">
+                                    <div class="ml-3">
+                                        <h6 class="text-uppercase text-primary text-bold">Hotel Name</h6>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                                <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy.
+                                    Tempor
+                                    sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et
+                                    dolor.
+                                </p>
+                            </div>
+                            <div class="position-relative">
+                                <i class="fa fa-3x fa-quote-right text-primary position-absolute"
+                                    style="top: -6px; right: 0;"></i>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid rounded-circle" src="img/hotel-2.jpg"
+                                        style="width: 60px; height: 60px;" alt="">
+                                    <div class="ml-3">
+                                        <h6 class="text-uppercase text-primary text-bold">Hotel Name</h6>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                                <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy.
+                                    Tempor
+                                    sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et
+                                    dolor.
+                                </p>
+                            </div>
+                            <div class="position-relative">
+                                <i class="fa fa-3x fa-quote-right text-primary position-absolute"
+                                    style="top: -6px; right: 0;"></i>
+                                <div class="d-flex align-items-center mb-3">
+                                    <img class="img-fluid rounded-circle" src="img/hotel-3.jpg"
+                                        style="width: 60px; height: 60px;" alt="">
+                                    <div class="ml-3">
+                                        <h6 class="text-uppercase text-primary text-bold">Hotel Name</h6>
+                                        <span>Profession</span>
+                                    </div>
+                                </div>
+                                <p class="m-0">Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy.
+                                    Tempor
+                                    sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et
+                                    dolor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <div class="row justify-content-center bg-appointment mx-0" id="contact">
+            <div class="col-lg-6 py-5">
+                <div class="p-5 my-5" style="background: rgba(33, 30, 28, 0.7);">
+                    <h1 class="text-primary text-center mb-4">Make Appointment</h1>
+                    
+                    <form action="https://getform.io/f/zazkknyb" method="POST" target="_blank">
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" class="form-control bg-transparent p-4" placeholder="Your Name"
+                                        required="required" />
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" class="form-control bg-transparent p-4" placeholder="Your Email"
+                                        required="required" />
+                                </div>
+                            </div>
+                        </div>
+                        <input type="hidden" name="_gotcha" style="display:none !important">
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="date" id="date" data-target-input="nearest">
+                                        <input type="text" id="Select Date" name="date" class="form-control bg-transparent p-4 datetimepicker-input"
+                                            placeholder="Select Date" data-target="#date"
+                                            data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="time" id="time" data-target-input="nearest">
+                                        <input type="text" id="Select Time" name="time" class="form-control bg-transparent p-4 datetimepicker-input"
+                                            placeholder="Select Time" data-target="#time"
+                                            data-toggle="datetimepicker" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <select class="custom-select bg-transparent px-4" name="service" style="height: 47px;">
+                                        <option id="Select A" selected>Select A Service</option>
+                                        <option id="S1" value="1">Service 1</option>
+                                        <option id="S2" value="2">Service 1</option>
+                                        <option id="S3" value="3">Service 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <button class="btn btn-primary btn-block" type="submit" style="height: 47px;">Make
+                                    Appointment</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Start -->
+    <div class="footer container-fluid position-relative bg-dark py-5">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6 pr-lg-5 mb-5">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="mb-3 text-white"><span class="text-primary">SPA</span> Center</h1>
+                    </a>
+                    <p>Aliquyam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam
+                        sed
+                        clita dolore eos dolores magna erat dolore sed stet justo et dolor.</p>
+                    <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, Tbilisi, Georgia</p>
+                    <p><i class="fa fa-phone-alt mr-2"></i>+995 123 123</p>
+                    <p><i class="fa fa-envelope mr-2"></i>info@gmail.com</p>
+                    <div class="d-flex justify-content-start mt-4">
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square mr-2" href="#"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-lg btn-primary btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-light border-top py-4"
+        style="border-color: rgba(256, 256, 256, .15) !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-left mb-3 mb-md-0">
+                    <p class="m-0 text-white">&copy; <a href="#">Magic Hands</a>. All Rights Reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="m-0 text-white">Designed by <a href="#">Nika Arudashvili</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#carousel" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- React Language Switcher -->
+    <script src="src/index.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- translate -->
+    <script src="translates.js"></script>
+
+    <!-- Gmail -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        const form = document.getElementById("form");
+        form.addEventListener("submit", formSubmit);
+    
+        function formSubmit(e) {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+    
+            fetch("https://getform.io/f/zazkknyb", {
+                method: "POST",
+                body: formData,
+                headers: {
+                    "Accept": "application/json",
+                },
+            })
+            .then(response => console.log(response))
+            .catch(error => console.log(error))
+        }
+    </script>
+    
+</body>
+
+</html>
