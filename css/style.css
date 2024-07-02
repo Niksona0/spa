@@ -565,7 +565,12 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  height: 450px;
+  width: 100%;
+}
+
+.img-ach {
+  width: 100%;
   height: 100%;
 }
 
@@ -10058,6 +10063,12 @@ body.jw-modal-open {
   border-radius: 5px;
 }
 
+@media (max-width: 1500px) {
+  .img-fluid {
+    height: 350px !important;
+  }
+}
+
 @media (max-width: 900px) {
   .jw-modal-body {
     max-width: 80% !important;
@@ -10070,3 +10081,4 @@ body.jw-modal-open {
     margin: 0 auto 25px auto;
   }
 }
+
