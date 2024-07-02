@@ -323,6 +323,7 @@ legend {
 
 .logo {
   width: 150px;
+  transform: translateY(5px);
 }
 
 @media (max-width: 1200px) {
@@ -334,6 +335,8 @@ legend {
   .logo {
     width: 80px;
   }
+
+
 }
 
 progress {
@@ -563,7 +566,7 @@ mark,
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -1948,7 +1951,7 @@ pre code {
   }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1005px) {
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -9980,10 +9983,12 @@ button {
 }
 
 .jw-modal-body {
-  max-width: 650px;
+  max-width: 850px;
   height: 550px;
   padding: 20px;
   background: #fff;
+  overflow: hidden;
+  display: flex;
 }
 
 body.jw-modal-open {
@@ -9992,56 +9997,76 @@ body.jw-modal-open {
 }
 
 .jw-modal .jw-modal-body img {
-  max-width: 300px;
-  height: 300px;
+  min-width: 50%;
+  height: 100%;
+  margin-right: 30px;
 }
 
 
 .jw-modal .jw-modal-body h1 {
   max-width: 200px;
   position: relative;
-  left: 320px;
-  bottom: 200px;
+  margin-bottom: 20px;
 }
 
 .jw-modal .jw-modal-body p {
   color: black;
   position: relative;
-  bottom: 100px;
 }
 
 .jw-modal .jw-modal-body button {
   position: relative;
-  bottom: 580px;
-  left: 520px;
-  background-color: orange;
-  color: white;
-  border: 1 px solid gray;
+  height: 50px;
+  background-color: #E09145;
+  color: black;
+  border-radius: 0%;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.modal-button {
+  color: #fff !important;
+  background: #E09145;
+  width: 100px;
+  text-transform: uppercase;
+  border: 1px solid #11212d;
+  transition: .5s;
+  outline: none;
+}
+
+.modal-button:hover {
+  background-color: #d39e00;
 }
 
 .flag {
   margin-top: 25px;
+  transform: translate(25px, 3px);
 }
 
 .usa {
-  max-width: 60px;
-  height: 50px;
+  max-width: 40px;
+  height: 40px;
   content: inherit;
   border-radius: 25%;
 }
 
 .grecee {
   margin-top: 25px;
-  max-width: 55px;
-  height: 38px;
+  max-width: 40px;
+  height: 30px;
   border-radius: 5px;
 }
 
+@media (max-width: 900px) {
+  .jw-modal-body {
+    max-width: 80% !important;
+    flex-direction: column;
+    overflow-y: scroll;
+    align-items: center;
+  }
 
-
-
-
-
-
-
-
+  .jw-modal-body img {
+    margin: 0 auto 25px auto;
+  }
+}
