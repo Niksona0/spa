@@ -2,18 +2,27 @@
 
 // open modal by id
 function openModal(id) {
-    document.getElementById(id).classList.add('open');
+    const modal = document.getElementById(id);
+    modal.style.display = 'block'; // Set display to block immediately
+    setTimeout(() => {
+        modal.classList.add('open'); // Add the 'open' class after a short delay
+    }, 10); // Delay to allow CSS to apply display change before transitioning
     document.body.classList.add('jw-modal-open');
 }
 
-// close currently open modal
 function closeModal() {
-    document.querySelector('.jw-modal.open').classList.remove('open');
-    document.body.classList.remove('jw-modal-open');
+    const openModal = document.querySelector('.jw-modal.open');
+    if (openModal) {
+        openModal.classList.remove('open');
+        setTimeout(() => {
+            openModal.style.display = 'none'; // Hide the modal after transition
+        }, 800); // Delay must match the CSS transition duration
+        document.body.classList.remove('jw-modal-open');
+    }
 }
 
 window.addEventListener('load', function() {
-    // close modals on background click
+    // Close modals on background click
     document.addEventListener('click', event => {
         if (event.target.classList.contains('jw-modal')) {
             closeModal();
@@ -131,14 +140,3 @@ window.addEventListener('load', function() {
     });
     
 })(jQuery);
-
-
-// navbar color
-$(window).on("scroll", function() {
-    var scrollPos = $(window).scrollTop();
-    if (scrollPos <= 0) {
-        $('.navbar').addClass('top-of-page');
-    } else {
-        $('.navbar').removeClass('top-of-page');
-    }
-});

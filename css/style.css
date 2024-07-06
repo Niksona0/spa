@@ -1,4 +1,5 @@
 @import url("https://fonts.cdnfonts.com/css/newyork");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 :root {
   --blue: #007bff;
@@ -323,17 +324,16 @@ legend {
 
 .logo {
   width: 150px;
-  transform: translateY(5px);
 }
 
 @media (max-width: 1200px) {
   legend {
     font-size: calc(1.275rem + 0.3vw);
   }
-  .navbar.top-of-page{background-color: #8484848b !important;}
 
   .logo {
-    width: 80px;
+    width: 110px;
+    margin-bottom: 15px;
   }
 
 
@@ -484,9 +484,11 @@ h6,
 }
 
 .display-3 {
-  font-size: 4.5rem;
+  font-size: 4.7rem;
   font-weight: 300;
   line-height: 1.2;
+  font-family: "Dancing Script", cursive;
+
 }
 
 @media (max-width: 1200px) {
@@ -565,8 +567,7 @@ mark,
 }
 
 .img-fluid {
-  height: 450px;
-  width: 100%;
+  height: 420px;
 }
 
 .img-ach {
@@ -4289,10 +4290,8 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
   transition: .5s;
   font-size: 1.5rem;
-  background: #64646463;
+  background: #11212d;
 }
-
-.navbar.top-of-page{background-color: transparent;}
 
 .navbar .container,
 .navbar .container-fluid,
@@ -9488,7 +9487,7 @@ button.bg-dark:focus {
   font-weight: 900 !important;
 }
 
-.hero-img {
+.hero-vid {
   filter: blur(2px);
   object-fit: cover;
 }
@@ -9841,6 +9840,7 @@ h6,
   background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)),
     url(../img/carousel-2.jpg), no-repeat center center;
   background-size: cover;
+  margin-top: 100px;
 }
 
 .bg-jumbotron {
@@ -9959,21 +9959,16 @@ button {
 
 /* MODAL STYLES
 -------------------------------*/
+/* Modals are hidden by default */
 .jw-modal {
-  /* modals are hidden by default */
-  display: none;
-
-  /* modal container fixed across whole screen */
+  display: none; /* Hidden by default */
   position: fixed;
   inset: 0;
-
-  /* z-index must be higher than everything else on the page */
   z-index: 10000;
-  
-  /* semi-transparent black background exposed by padding */
   background-color: rgba(0, 0, 0, .75);
-  /* enables scrolling for tall modals */
   overflow: auto;
+  opacity: 0; /* Start with hidden opacity */
+  transition: opacity 2s ease; /* Transition for opacity */
 }
 
 .jw-modal .movement {
@@ -9984,7 +9979,8 @@ button {
 }
 
 .jw-modal.open {
-  display: block;
+  display: block; /* Show the modal */
+  opacity: 1; /* Fully opaque */
 }
 
 .jw-modal-body {
@@ -9997,8 +9993,7 @@ button {
 }
 
 body.jw-modal-open {
-  /* body overflow is hidden to hide main scrollbar when modal window is open */
-  overflow: hidden;
+  overflow: hidden; /* Hide main scrollbar when modal window is open */
 }
 
 .jw-modal .jw-modal-body img {
@@ -10006,7 +10001,6 @@ body.jw-modal-open {
   height: 100%;
   margin-right: 30px;
 }
-
 
 .jw-modal .jw-modal-body h1 {
   max-width: 200px;
@@ -10033,7 +10027,7 @@ body.jw-modal-open {
 .modal-button {
   color: #fff !important;
   background: #E09145;
-  width: 100px;
+  width: 160px;
   text-transform: uppercase;
   border: 1px solid #11212d;
   transition: .5s;
@@ -10046,7 +10040,7 @@ body.jw-modal-open {
 
 .flag {
   margin-top: 25px;
-  transform: translate(25px, 3px);
+  transform: translateY(-10px);
 }
 
 .usa {
@@ -10063,10 +10057,73 @@ body.jw-modal-open {
   border-radius: 5px;
 }
 
+.hero-container {
+  margin-top: 80px;
+}
+
+.info-cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+}
+
+.hero-khatia {
+  width: 400px;
+  height: auto;
+}
+
+.hours-text {
+  max-width: 600px;
+}
+
+.khatia-hero {
+  width: 400px;
+  height: 550px;
+  border-radius: 10px;
+}
+
+.hero-cert img {
+  width: 230px;
+  border-radius: 3px;
+}
+
+.hero-cert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.hitem {
+  margin: 0 50px;
+}
+
+.hero-top-txt {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 1500px) {
   .img-fluid {
     height: 350px !important;
   }
+}
+
+@media (max-width: 1200px) {
+  .info-cont {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 60vh;
+  }
+  .hero-cert,  .khatia-hero, .hero-top-txt {
+    display: none;
+  }
+
+  .hours-text {
+    min-width: 400px;
+  }
+
 }
 
 @media (max-width: 900px) {
