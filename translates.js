@@ -78,7 +78,7 @@ const translations = {
 
     masseuse: "Masseuse",
     khBakuradze: "Khatia Bakuradze",
-    aboutKhatia: "Khatia Bakuradze is a skilled medical massage therapist with extensiveexperience in Athens, Greece. She has worked at prestigious placeslike Hotel InterContinental Athens and Masazaki in Glifada since 2019.Specializing in various techniques such as traditional Thai massage, Gua Sha, cupping, and advanced body oil massage, Khatia is also trained in therapeutic andfacial rejuvenation massages.",
+    aboutKhatia: "Khatia Bakuradze is a skilled medical massage therapist with extensiveexperience in Athens, Greece. She has worked at many prestigious hotels and is massage coach. Specializing in various techniques such as traditional Thai massage, Gua Sha, cupping, and advanced body oil massage, Khatia is also trained in therapeutic andfacial rejuvenation massages.",
     qualifications: "Qualifications",
     fPlace: "First Place at the World Massage Championship (2023)",
     sPlace: "Second Place in Lomi-Lomi Massage at the World Massage Championship (2023)",
@@ -219,7 +219,7 @@ const translations = {
 
     masseuse: "Μασέρ",
     khBakuradze: "Χατία Μπακουράτζε.",
-    aboutKhatia: "Φαίνεται ότι περιγράφετε μια έμπειρη θεραπεύτρια μασάζ με το όνομα Χατία Μπακουράτζε, με εκτενή εμπειρία στην Αθήνα, Ελλάδα. Έχει εργαστεί σε διάσημα μέρη όπως το ξενοδοχείο InterContinental Athens και το Masazaki στη Γλυφάδα από το 2019. Ειδικευόμενη σε διάφορες τεχνικές όπως το παραδοσιακό Ταϊλανδέζικο μασάζ, το Gua Sha, το cupping και το προηγμένο μασάζ με έλαια για το σώμα, η Χατία είναι επίσης εκπαιδευμένη σε θεραπευτικά και αναζωογονητικά μασάζ προσώπου.",
+    aboutKhatia: "Η Khatia Bakuradze είναι εξειδικευμένη θεραπευτή ιατρικού μασάζ με μεγάλη εμπειρία στην Αθήνα, Ελλάδα. Έχει εργαστεί σε πολλά αριστοκρατικά ξενοδοχεία και είναι προπονήτρια μασάζ. Εξειδικευμένη σε διάφορες τεχνικές όπως το παραδοσιακό ταϊλανδέζικο μασάζ, το Gua Sha, το cupping και το προηγμένο μασάζ με λάδι σώματος, η Khatia εκπαιδεύεται επίσης σε θεραπευτικά και μασάζ αναζωογόνησης προσώπου.",
     qualifications: "Προσόντα",
     fPlace: "Πρώτο Μέρος στο Παγκόσμιο Πρωτάθλημα Μασάζ (2023)",
     sPlace: "Δεύτερο Μέρος στο Μασάζ Lomi-Lomi στο Παγκόσμιο Πρωτάθλημα Μασάζ (2023)",

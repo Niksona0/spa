@@ -43,7 +43,7 @@
                     <a href="#navbar" data-translate="hometext" class="nav-item nav-link active text-white">Home</a>
                     <a href="#about" data-translate="about" class="nav-item nav-link text-white">About</a>
                     <a href="#service" data-translate="service" class="nav-item nav-link text-white">Services</a>
-                    <a href="#gallery" data-translate="gallery" class="nav-item nav-link text-white">Gallery</a>
+                    <a onclick="openModal('modal-12')" id="#gal" class="nav-item nav-link text-white " href="#gallery" data-translate="gallery" class="nav-item nav-link text-white">Gallery</a>
                     <a href="#contact" data-translate="contact" class="nav-item nav-link text-white">Contact</a>
                 </div>
                 <div class="flags">
@@ -78,7 +78,7 @@
                                         <h1 data-translate="khBakuradze" class="mb-4 text-primary">Khatia Bakuradze</h1>
                                         <p data-translate="aboutKhatia">
                                             Khatia Bakuradze is a skilled medical massage therapist with extensive
-                                            experience in Athens, Greece. She has worked at many prestigious hotels.
+                                            experience in Athens, Greece. She has worked at many prestigious hotels and is massage coach.
                                             Specializing in various techniques such as traditional Thai massage, Gua Sha, 
                                             cupping, and advanced body oil massage, Khatia is also trained in therapeutic and
                                             facial rejuvenation massages.
@@ -97,10 +97,10 @@
                                         <img src="img/khatia.jpg" class="khatia-hero">
                                     </div>
 
-                                    <div class="hero-cert gitem">
-                                        <img src="img/ach-2.jpg">
-                                        <img src="img/ach-3.jpg">
-                                        <img src="img/ach-4.jpg">
+                                    <div class="ac hero-cert gitem">
+                                        <img class="ac1" src="img/ach-2.jpg">
+                                        <img class="ac2" src="img/ach-3.jpg">
+                                        <img class="ac3" src="img/ach-4.jpg">
                                     </div>
 
                                 </div>
@@ -415,6 +415,25 @@
                         </p>
                     </div>
                     <button data-translate="bClose" onclick="closeModal()">Close</button>
+                </div> 
+            </div>
+        </div>
+
+        <div id="modal-12" class="jw-modal">
+            <div class="movement">
+                <div class="jw-modal-body-gallery">
+                    <h1 class="gallery-title">Gallery</h1>
+
+                    <div class="modal-vids">
+                        <video src="media/home-intro-2.mp4" controls></video>
+                        <video src="media/home-intro-3.mp4" controls></video>
+                        <video src="media/ai-vid-1.mp4" controls></video>
+                        <video src="media/ai-vid-2.mp4" controls></video>
+                        <video src="media/massage-vid-1.mp4" controls></video>
+                        <video src="media/massage-vid-2.mp4" controls></video>
+                    </div>
+
+                    <button class="btn-close" onclick="closeModal()">X</button>
                 </div> 
             </div>
         </div>
